@@ -9,8 +9,8 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 // This function gets called at build time
 export async function getStaticProps() {
   // Call an external API endpoint to get posts
-  const paintings = await supabase.from('paintings').select()
-
+  const paintings = await supabase.from('paintings').select().order('title', { ascending: true })
+  
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
   return {
@@ -20,22 +20,30 @@ export async function getStaticProps() {
   }
 }
 
+
 // const data = await supabase.from('paintings').select()
 
 export default function Paintings({paintings}) {
+
+
+
   return (
     <div>
       <h1>Paintings</h1>
-      <div className="grid grid-cols-3 gap-4 items-end">
+
+      <div className="grid grid-cols-3 gap-12 items-end">
         {paintings.data.map((painting) => (
+          
           <Painting 
             image={'https://fnsasmiiibssodluabbh.supabase.co/storage/v1/object/public/paintings/' + painting.image}
             title={painting.title}
             medium={painting.medium}
             size={painting.size}
             status={painting.status} 
+            categories={painting.categories}
             key={painting.id}
           />
+          
         ))}
       </div>
     </div>
