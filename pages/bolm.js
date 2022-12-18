@@ -31,12 +31,12 @@ function Bolm() {
           </ul>
           <h2>Order online</h2>
           <ul className="list-disc px-4 pb-8">
-            <li><a class="" href="https://shop.aer.io/heyday/p/Birds_of_Lake_Merritt/9781597145480-4706?collection=/0">Heyday</a></li>
-            <li><a class="" href="https://bookshop.org/books/birds-of-lake-merritt/9781597145480">Bookshop.org</a></li>
-            <li><a class="" href="https://www.barnesandnoble.com/w/birds-of-lake-merritt-alex-harris/1138477832?ean=9781597145480">Barnes &amp; Noble</a></li>
-            <li><a class="" href="https://www.booksamillion.com/p/Birds-Lake-Merritt/Alex-Harris/9781597145480?id=8260566434706">BAM!</a></li>                
-            <li><a class="" href="https://books.apple.com/us/book/birds-of-lake-merritt/id1549034822">Apple Books (digital)</a></li>
-            <li><a class="" href="https://www.amazon.com/Birds-Lake-Merritt-Alex-Harris/dp/1597145483">Amazon</a></li>
+            <li><a href="https://shop.aer.io/heyday/p/Birds_of_Lake_Merritt/9781597145480-4706?collection=/0">Heyday</a></li>
+            <li><a href="https://bookshop.org/books/birds-of-lake-merritt/9781597145480">Bookshop.org</a></li>
+            <li><a href="https://www.barnesandnoble.com/w/birds-of-lake-merritt-alex-harris/1138477832?ean=9781597145480">Barnes &amp; Noble</a></li>
+            <li><a href="https://www.booksamillion.com/p/Birds-Lake-Merritt/Alex-Harris/9781597145480?id=8260566434706">BAM!</a></li>                
+            <li><a href="https://books.apple.com/us/book/birds-of-lake-merritt/id1549034822">Apple Books (digital)</a></li>
+            <li><a href="https://www.amazon.com/Birds-Lake-Merritt-Alex-Harris/dp/1597145483">Amazon</a></li>
           </ul>
           <p>Or, at your favorite <a href="https://www.indiebound.org/book/9781597145480">local bookstore</a>.</p>
         </div>          

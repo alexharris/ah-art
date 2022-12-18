@@ -9,7 +9,9 @@ class Footer extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {    this.setState({value: event.target.value});  }
+  handleChange(event) {    
+    this.setState({value: event.target.value});  
+  }
 
   handleSubmit(event) {
     alert('A name was submitted: ' + this.state.value);
@@ -24,7 +26,7 @@ class Footer extends Component {
           <div className="w-1/2">
             <h3>Newsletter</h3>
             <p>Sign up for my newsletter to receive very occasional emails (like almost never), about new projects, prints for sale, etc</p>
-            <span className="p-2 bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer"><a href="https://tinyletter.com/alexharris" target="_blank" className="border-0">sign up</a></span>
+            <span className="p-2 bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer"><a className="border-0" href="https://tinyletter.com/alexharris" target="_blank" >sign up</a></span>
           </div>
           <div className="w-1/2">
             <h3>Get in touch</h3>
