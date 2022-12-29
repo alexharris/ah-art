@@ -24,10 +24,15 @@ p {
 }
 
 .small-text {
-  @apply text-sm font-sans pb-8
+  @apply text-sm font-sans
 }
 
 
 a {
   @apply border-b border-black inline
+}
+
+.carousel-image {
+  max-height: 70vh;
+  max-width: 70vw;
 }
