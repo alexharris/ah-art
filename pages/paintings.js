@@ -67,7 +67,7 @@ class Paintings extends React.Component {
       <div>
         <h1>Paintings</h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 items-end">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 items-end">
           {this.state.paintings.data.map((painting, index) => (
             <Painting 
               image={'https://fnsasmiiibssodluabbh.supabase.co/storage/v1/object/public/paintings/' + painting.image}

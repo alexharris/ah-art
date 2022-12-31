@@ -29,7 +29,11 @@ p {
 
 
 a {
-  @apply border-b border-black inline
+  @apply border-b border-black inline hover:text-red-500
+}
+
+a.image {
+  @apply border-0;
 }
 
 .carousel-image {

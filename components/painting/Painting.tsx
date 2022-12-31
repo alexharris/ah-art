@@ -57,14 +57,14 @@ class Painting extends Component {
               <span className="absolute top-2 right-2 cursor-pointer" onClick={() => this.handleClick(false)}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="arcs"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>              
               </span>                
-              <div className="text-center absolute left-2 top-[50%]" onClick={() => this.handleClick((this.props.index - 1))}>
+              <div className="text-center absolute left-[30%] md:left-2 bottom-8 md:top-[50%]" onClick={() => this.handleClick((this.props.index - 1))}>
                 {this.props.index > 0 ?
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="arcs"><path d="M19 12H6M12 5l-7 7 7 7"/></svg>                
                 : <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="arcs"><path d="M19 12H6M12 5l-7 7 7 7"/></svg>                
               }  
               </div>    
        
-              <div className="text-center absolute right-2 top-[50%]" onClick={() => this.handleClick((this.props.index + 1))}>
+              <div className="text-center absolute right-[30%] md:right-2 bottom-8 md:top-[50%]" onClick={() => this.handleClick((this.props.index + 1))}>
                 {this.props.index < this.props.numberOfPaintings - 1 ?
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="arcs"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
                 : null } 

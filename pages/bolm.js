@@ -2,8 +2,8 @@ function Bolm() {
   return (
     <div>
       
-      <div className="flex gap-12">
-        <div className="w-1/2">
+      <div className="flex flex-col-reverse md:flex-row gap-12">
+        <div className="w-full md:w-1/2">
           <h1>Birds of Lake Merritt</h1>
           <p className="big-text">
             A richly illustrated birding guide to the nation's first official wildlife refuge
@@ -12,15 +12,15 @@ function Bolm() {
             This book introduces us to the 15 of the ducks, herons, pelicans, geese and other species of bird that can be found on the waters of Lake Merritt in Oakland, California. The introduction tells the history of the "lake" (spoiler alert it isn't actually a lake) and how it came to be home to the first officially designated wildlife refuge in the nation.            
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <img className="w-96 mx-auto" src="/greater-scaup.png" />
         </div>
       </div>
-      <div className="bg-gray-100 p-8 my-12 flex gap-12">
-        <div className="w-1/2">
-          <img className="mx-auto w-2/3" src="/bolm-cover.jpg" />
+      <div className="bg-gray-100 p-8 my-12 flex flex-col sm:flex-row gap-12">
+        <div className="w-full sm:w-1/2">
+          <img className="mx-auto lg:w-2/3" src="/bolm-cover.jpg" />
         </div>
-        <div className="w-1/2">
+        <div className="w-full sm:w-1/2">
           <h2>About Birds of Lake Merritt</h2>      
           <ul className="list-disc px-4 pb-8">
             <li>Hardcover</li>
@@ -42,7 +42,7 @@ function Bolm() {
         </div>          
       </div>
       <h2 className="py-12">Praise for Birds of Lake Merritt</h2>
-      <div className="grid grid-cols-2 gap-12 pb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pb-12">
         <blockquote>
           “I’ve always known Lake Merritt as a great place to look for birds, not knowing that it was originally designated as a bird sanctuary over 150 years ago—the first wildlife refuge in the country! This charming book is the perfect introduction to the lake and its birds, and it’s sure to give you a new appreciation of both.” 
           <footer className="py-4"><a href="https://www.sibleyguides.com/">DAVID ALLEN SIBLEY</a>, author of <i>What It’s Like to Be a Bird</i></footer>
@@ -60,8 +60,8 @@ function Bolm() {
           <footer className="py-4"><a href="https://www.jennyodell.com/">JENNY ODELL</a>, author of <i>How to Do Nothing</i></footer>        </blockquote>                
       </div>
       <h2 className="py-12">Media and stuff</h2>
-      <div className="flex gap-12">
-        <div className="w-1/3">
+      <div className="flex flex-col-reverse md:flex-row gap-12">
+        <div className="w-full md:w-1/3">
           
           <ul className="list-disc px-4 pb-8">
             <li><a href="https://www.kalw.org/newarrivals/2021-11-16/alex-harris-combines-illustrations-and-text-in-birds-of-lake-merritt">KALW New Arrivals: A pocket-sized book tour</a></li>
@@ -70,7 +70,7 @@ function Bolm() {
             <li><a href="https://www.youtube.com/watch?v=zf4lmp543Ks&list=PLBdcrXdht6nki2okzdKwLswBGilmjqbhL&index=6">Birds in Your Backyard panel discussion at the 2022 Bay Area Book Festival</a></li>
           </ul>
         </div>
-        <div className="w-2/3">
+        <div className="w-full md:w-2/3">
           <img  src="/opl-presentation.jpg" />
         </div>
       </div>      

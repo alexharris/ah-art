@@ -12,12 +12,23 @@ class ImageWithText extends Component {
   render() {
     return (
       <div className="pb-12">
-        <figure className="flex">
-          <img className="w-2/3" src={this.props.image} />  
-          <figcaption className="w-1/3 pl-12">
-            <h2>{this.props.title}</h2>
+        <figure className="flex items-start flex-col md:flex-row">
+          {this.props.link !== ''
+            ? <a className="image w-full md:w-2/3" href={this.props.link}><img src={this.props.image} /></a>
+            : <img className="image w-full md:w-2/3" src={this.props.image} />
+          }
+          
+          <figcaption className="w-full md:w-1/3 md:pl-12 pt-8 md:pt-0">
+            {this.props.link !== ''
+            ? <h2><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
+            : <h2>{this.props.title}</h2>
+            }
+            
             <p>{this.props.text}</p>
-            <a href={this.props.link}>More</a>
+            {this.props.link !== '' &&
+              <a href={this.props.link}>More</a>              
+            }
+            
           </figcaption>
         </figure>
       </div>
