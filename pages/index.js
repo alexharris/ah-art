@@ -18,7 +18,7 @@ function HomePage() {
       />
       <ImageWithText 
         image="homepage-prints.jpg" 
-        title="Prints etc." 
+        title="Shop" 
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at ante et eros porta varius non pellentesque ex."
         link="prints"
       />         

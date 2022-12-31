@@ -80,9 +80,8 @@ class Painting extends Component {
                     <li>{this.props.title}</li>
                     <li>{this.props.medium} </li>
                     <li>{this.props.size} </li>
-                    <li>{this.props.status} </li>
-                    <li>hello</li>
-                    <li>{this.props.categories}</li>
+                    <li>{this.props.status} &nbsp;</li>
+                    {/* <li>{this.props.categories}</li> */}
                   </ul>
 
                 </figcaption>
