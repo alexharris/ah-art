@@ -20,7 +20,7 @@ p {
 }
 
 .big-text {
-  @apply text-3xl font-serif pb-8
+  @apply text-3xl font-serif pb-8 md:max-w-[60%]
 }
 
 .small-text {

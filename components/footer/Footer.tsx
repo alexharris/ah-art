@@ -22,7 +22,7 @@ class Footer extends Component {
     return(
 
       <footer className="px-8 bg-gray-100">
-        <div  className="flex flex-col md:flex-row justify-between gap-8 py-16 mt-8">
+        <div  className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8 py-16 mt-8">
           <div className="w-full md:w-1/2">
             <h3>Newsletter</h3>
             <p>Sign up for my newsletter to receive very occasional emails (like almost never), about new projects, prints for sale, etc</p>

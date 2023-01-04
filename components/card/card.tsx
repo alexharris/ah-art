@@ -6,19 +6,19 @@ import Image from 'next/image'
 
 
 
-class ImageWithText extends Component {
+class Card extends Component {
 
 
   render() {
     return (
-      <div className="pb-12">
-        <figure className="flex items-start flex-col md:flex-row-reverse">
+      <div className="">
+        <figure className="flex items-start flex-col">
           {this.props.link !== ''
-            ? <a className="image w-full md:w-2/3" href={this.props.link}><img src={this.props.image} /></a>
-            : <img className="image w-full md:w-2/3" src={this.props.image} />
+            ? <a className="image w-full" href={this.props.link}><img src={this.props.image} /></a>
+            : <img className="image w-full" src={this.props.image} />
           }
           
-          <figcaption className="w-full md:w-1/3 md:pr-6 pt-8 md:pt-0">
+          <figcaption className="w-full pt-6">
             {this.props.link !== ''
             ? <h2><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
             : <h2>{this.props.title}</h2>
@@ -36,4 +36,4 @@ class ImageWithText extends Component {
   }
 }
 
-export default ImageWithText; // Don’t forget to use export default!
+export default Card; // Don’t forget to use export default!
