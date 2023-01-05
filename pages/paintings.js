@@ -11,8 +11,6 @@ export async function getStaticProps() {
   // Call an external API endpoint to get posts
   const paintings = await supabase.from('paintings').select().order('title', { ascending: true })
   
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
   return {
     props: {
       paintings,

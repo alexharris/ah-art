@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import Card from '../components/card/card'
 import { createClient } from '@supabase/supabase-js'
 import ReactMarkdown from 'react-markdown'
 
@@ -20,7 +19,7 @@ export async function getStaticProps() {
 }
 
 
-class Shop extends React.Component {
+class Contact extends React.Component {
 
   constructor(props) {
     super(props);  
@@ -42,31 +41,22 @@ class Shop extends React.Component {
   render() {
     return (
       <div>
-        <h1>Shop</h1>
-        <ReactMarkdown>{this.state.modifiedContent.shop_intro}</ReactMarkdown>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 items-start">
-          <Card 
-            image="shop-gardener.jpg" 
-            title="Birds of Lake Merritt Original Paintings" 
-            text={this.state.modifiedContent.shop_paintings}
-            link=""
-          />      
-          <Card 
-            image="shop-postcards.jpg" 
-            title="Hawks of California Postcards" 
-            text={this.state.modifiedContent.shop_postcards}
-            link=""
-          />   
-          <Card 
-            image="shop-hawk-prints.jpg" 
-            title="Hawk Prints" 
-            text={this.state.modifiedContent.shop_hawkprints}
-            link=""
-          />         
-        </div>
+        <h1>Contact</h1>
+        {this.state.modifiedContent.contact_intro}
+        <form className="flex flex-col gap-4 items-start max-w-lg pt-16" name="contact" method="POST" data-netlify="true">
+    
+              <label className="w-full"><span className="pb-4">Your Email</span><input className="w-full border border-black h-12 p-2" type="email" name="email" /></label>
+
+              <label className="w-full"><span className="pb-4">Message</span><textarea className="w-full border border-black h-24 p-2" name="message"></textarea></label>
+  
+            <p className="text-center my-6">
+              <button className="p-2 bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer" type="submit">Submit</button>
+            </p>
+        </form>        
+
       </div>
     )
   }
 }
 
-export default Shop
+export default Contact

@@ -11,7 +11,7 @@ class Header extends Component {
           <a className="md:mr-4" href="/paintings">Paintings</a>
           <a className="md:mr-4" href="/bolm">Birds of Lake Merritt</a>
           <a className="md:mr-4" href="/shop">Shop</a>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </nav>
       </header>
       

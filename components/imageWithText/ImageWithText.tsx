@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 import Image from 'next/image'
-
-
-
+import ReactMarkdown from 'react-markdown'
 
 
 
 class ImageWithText extends Component {
-
-
   render() {
     return (
       <div className="pb-12">
@@ -24,7 +20,7 @@ class ImageWithText extends Component {
             : <h2>{this.props.title}</h2>
             }
             
-            <p>{this.props.text}</p>
+            <ReactMarkdown>{this.props.text}</ReactMarkdown>
             {this.props.link !== '' &&
               <a href={this.props.link}>More</a>              
             }
