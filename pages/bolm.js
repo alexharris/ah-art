@@ -5,20 +5,21 @@ function Bolm() {
       <div className="flex flex-col-reverse md:flex-row gap-12">
         <div className="w-full md:w-1/2">
           <h1>Birds of Lake Merritt</h1>
-          <p className="big-text">
+          <h2>
             A richly illustrated birding guide to the nation's first official wildlife refuge
-          </p>
+          </h2>
           <p>
             This book introduces us to the 15 of the ducks, herons, pelicans, geese and other species of bird that can be found on the waters of Lake Merritt in Oakland, California. The introduction tells the history of the "lake" (spoiler alert it isn't actually a lake) and how it came to be home to the first officially designated wildlife refuge in the nation.            
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <img className="w-96 mx-auto" src="/greater-scaup.png" />
+          <img className="mx-auto lg:w-2/3 shadow-lg" src="/bolm-cover.jpg" />
+          
         </div>
       </div>
       <div className="bg-gray-100 p-8 my-12 flex flex-col sm:flex-row gap-12">
         <div className="w-full sm:w-1/2">
-          <img className="mx-auto lg:w-2/3" src="/bolm-cover.jpg" />
+          <img className="w-96 mx-auto" src="/greater-scaup.png" />
         </div>
         <div className="w-full sm:w-1/2">
           <h2>About Birds of Lake Merritt</h2>      

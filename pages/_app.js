@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
+      <script src="https://cdn.usefathom.com/script.js" data-site="DDUYXUPA" defer></script>
     </div>
   )
 }
