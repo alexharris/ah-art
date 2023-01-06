@@ -40,7 +40,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="flex flex-col  w-1/2 mx-auto border border-black p-4 shadow-lg">
+      <div className="flex flex-col  md:w-1/2 mx-auto border border-black p-4 shadow-lg">
         <h1 className="font-sans text-lg uppercase">Contact</h1>
         {this.state.modifiedContent.contact_intro}
         <form className="flex flex-col gap-4 items-start w-full pt-16" name="contact" action="/form-success" method="POST" data-netlify="true">
