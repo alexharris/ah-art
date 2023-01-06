@@ -31,8 +31,8 @@ class Footer extends Component {
           <div className="w-full md:w-1/2">
             <h3>Get in touch</h3>
             <ul>
-              <li>@waggledance</li>
-              <li>hello @ alexharris dot online</li>
+              <li>On instagram at @waggledance</li>
+              <li>On email at hello @ alexharris dot online</li>
             </ul>
           </div>
         </div>    

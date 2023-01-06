@@ -40,16 +40,15 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Contact</h1>
+      <div className="flex flex-col  w-1/2 mx-auto border border-black p-4 shadow-lg">
+        <h1 className="font-sans text-lg uppercase">Contact</h1>
         {this.state.modifiedContent.contact_intro}
-        <form className="flex flex-col gap-4 items-start max-w-lg pt-16" name="contact" action="/form-success" method="POST" data-netlify="true">
+        <form className="flex flex-col gap-4 items-start w-full pt-16" name="contact" action="/form-success" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <label className="w-full"><span className="pb-4">Your Email</span><input className="w-full border border-black h-12 p-2" type="email" name="email" /></label>
             <label className="w-full"><span className="pb-4">Message</span><textarea className="w-full border border-black h-24 p-2" name="message"></textarea></label>
             <button className="p-2 bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer" type="submit">Submit</button>          
-        </form>        
-
+        </form>                
       </div>
     )
   }

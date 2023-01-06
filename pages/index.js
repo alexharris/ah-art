@@ -44,7 +44,7 @@ class HomePage extends React.Component {
     return (
       <div>
         
-        <p className="big-text mb-12">I am a painter and writer in Oakland, California.</p>
+        <p className="big-text my-16">I am a painter and writer in Oakland, California.</p>
         <ImageWithText 
           image="homepage-paintings.jpg" 
           title="Paintings" 
