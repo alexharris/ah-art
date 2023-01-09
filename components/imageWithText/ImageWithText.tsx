@@ -16,8 +16,8 @@ class ImageWithText extends Component {
           
           <figcaption className="w-full md:w-1/3 md:pr-6 pt-8 md:pt-0">
             {this.props.link !== ''
-            ? <h2><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
-            : <h2>{this.props.title}</h2>
+            ? <h2 className="font-sans text-base font-semibold"><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
+            : <h2 className="font-sans text-base font-semibold">{this.props.title}</h2>
             }
             
             <ReactMarkdown>{this.props.text}</ReactMarkdown>

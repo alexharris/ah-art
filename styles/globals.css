@@ -4,7 +4,7 @@
 
 
 h1 {
-  @apply text-4xl font-serif pb-8
+  @apply text-4xl font-serif pb-12
 }
 
 h2 {

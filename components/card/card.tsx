@@ -20,8 +20,8 @@ class Card extends Component {
           
           <figcaption className="w-full pt-6">
             {this.props.link !== ''
-            ? <h2><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
-            : <h2>{this.props.title}</h2>
+            ? <h2 className="font-sans text-base font-semibold"><a className="border-0" href={this.props.link}>{this.props.title}</a></h2>
+            : <h2 className="font-sans text-base font-semibold">{this.props.title}</h2>
             }
             
             <p>{this.props.text}</p>
