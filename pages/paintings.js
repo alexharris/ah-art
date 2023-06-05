@@ -38,14 +38,22 @@ class Paintings extends React.Component {
   handleFilterPaintings(category) {
     
     var filteredPaintings = []
-
-    this.state.paintings.forEach(element => {
-      if(element.categories !== null){
-        if (element.categories.includes(category.toString())) {
+    if(category == '5') {
+      this.state.paintings.forEach(element => {
+        if(element.status == 'Available'){
           filteredPaintings.push(element)
         }
-      }
-    })
+      })
+    } else {
+      this.state.paintings.forEach(element => {
+        if(element.categories !== null){
+          if (element.categories.includes(category.toString())) {
+            filteredPaintings.push(element)
+          }
+        }
+      })      
+    }
+
     this.setState({
       filteredPaintings: filteredPaintings
     })
