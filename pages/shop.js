@@ -45,11 +45,11 @@ class Shop extends React.Component {
         <h1>Shop</h1>
         <ReactMarkdown>{this.state.modifiedContent.shop_intro}</ReactMarkdown>
 
-        <div class="p-12 mb-16 flex flex-col md:flex-row gap-8 bg-gray-100">
-          <div class="w-1/2">
+        <div class="p-6 md:p-12 mb-16 flex flex-col md:flex-row gap-8 bg-gray-100">
+          <div class="w-full md:w-1/2">
             <img src="bolm-print.jpg" />
           </div>
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <h2 class="text-4xl">Common Birds of Lake Merritt Fine Art Print</h2>
             <p>A fine art print identifying 19 of the most common birds at Lake Merritt, beautifully printed on Signature Worthy® Cold Press paper and signed by the artist.</p>
             <p>Currently available in two sizes:</p>
