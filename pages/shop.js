@@ -45,7 +45,7 @@ class Shop extends React.Component {
         <h1>Shop</h1>
         <ReactMarkdown>{this.state.modifiedContent.shop_intro}</ReactMarkdown>
 
-        <div class="p-6 md:p-12 mb-16 flex flex-col md:flex-row gap-8 bg-gray-100">
+        <div class="p-4 md:p-12 mb-16 flex flex-col md:flex-row gap-8 bg-gray-100">
           <div class="w-full md:w-1/2">
             <img src="bolm-print.jpg" />
           </div>
