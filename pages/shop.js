@@ -43,14 +43,15 @@ class Shop extends React.Component {
     return (
       <div>
         <h1>Shop</h1>
-        <ReactMarkdown>{this.state.modifiedContent.shop_intro}</ReactMarkdown>
+        {/* <ReactMarkdown>{this.state.modifiedContent.shop_intro}</ReactMarkdown> */}
 
         <div class="p-4 md:p-12 mb-16 flex flex-col md:flex-row gap-8 bg-gray-100">
-          <div class="w-full md:w-1/2">
+          <div class="w-full md:w-2/3">
             <img src="bolm-print.jpg" />
           </div>
-          <div class="w-full md:w-1/2">
-            <h2 class="text-4xl">Common Birds of Lake Merritt Fine Art Print</h2>
+          <div class="w-full md:w-1/3">
+            <div class="font-sans text-base font-semibold">New Print</div>
+            <h2 class="text-4xl">Common Birds of Lake Merritt</h2>
             <p>A fine art print identifying 19 of the most common birds at Lake Merritt, beautifully printed on Signature Worthy® Cold Press paper and signed by the artist.</p>
             <p>Currently available in two sizes:</p>
             <p class="text-2xl">12 x 16 - $50</p>
@@ -59,6 +60,7 @@ class Shop extends React.Component {
 </script>
 
 <stripe-buy-button
+  class="w-full"
   buy-button-id="buy_btn_1Nu4ndEB2SNh31gwdBLrBZRt"
   publishable-key="pk_live_7ijeS9mbS8G6IBtOCHOmPK9p"
 >
