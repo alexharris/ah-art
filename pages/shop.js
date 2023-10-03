@@ -54,7 +54,7 @@ class Shop extends React.Component {
             <h2 class="text-4xl">Common Birds of Lake Merritt</h2>
             <p>A fine art print identifying 19 of the most common birds at Lake Merritt, beautifully printed on Signature Worthy® Cold Press paper and signed by the artist.</p>
             <p>Currently available in two sizes:</p>
-            <p class="text-2xl">12 x 16 - $50</p>
+            <p class="text-2xl">12 x 16 - $55</p>
             <script async
   src="https://js.stripe.com/v3/buy-button.js">
 </script>
