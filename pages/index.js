@@ -61,7 +61,7 @@ class HomePage extends React.Component {
           image="homepage-prints.jpg" 
           title="Shop" 
           text={this.state.modifiedContent.homepage_shop}
-          link="shop"
+          link="https://shop.alexharris.art/"
         />         
       </div>
     )
