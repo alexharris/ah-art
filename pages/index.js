@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import { createClient } from '@supabase/supabase-js'
 import ImageWithText from '../components/imageWithText/ImageWithText'
+import Markdown from 'react-markdown'
 
 
 const supabaseUrl = 'https://fnsasmiiibssodluabbh.supabase.co'
@@ -18,6 +19,7 @@ export async function getStaticProps() {
     },
   }
 }
+
 
 
 class HomePage extends React.Component {
@@ -42,10 +44,41 @@ class HomePage extends React.Component {
   render () {
 
     return (
-      <div>
-        
-        <p className="big-text my-16">I am a painter and writer in Oakland, California.</p>
-        <ImageWithText 
+      <div className="max-w-3xl copy">
+       <div className="big-text mb-8">I am an artist in Oakland, CA.<br /> Here is some of my work:</div>
+      <Markdown>{`
+## Birds of Lake Merritt
+A book I wrote and illustrated about the history and birds of Lake Merritt in Oakland, CA. Published by Heyday Books in 2021.  
+[Learn more at birdsoflakemerritt.com ↝](https://birdsoflakemerritt.com/)
+
+## Illustration
+- [Good Eggs zine, spring 2024 ↝](illustration/good-eggs-spring-2023)  
+- [Bay Nature Mushroom articles ↝](illustration/bay-nature-mushrooms) (I wrote the articles as well)
+
+## Paintings
+Original paintings from over the years, mostly gouache and watercolor  
+[See some paintings ↝](/paintings)
+
+## Dither it!
+A web app for reducing the number of colors in images using a process known as dithering, for purposes of style and filesize  
+[Visit ditherit.com ↝](https://ditherit.com)
+
+## Dither it! for Figma
+A plugin for dithering images in the Figma app.  
+[Check it ↝](https://www.figma.com/community/plugin/1141558599392169513/dither-it)
+
+---
+
+I also build and maintain websites for a variety of clients, which you can check out here:  
+[AHWD ↝](https://alexharris.online)
+
+      `}</Markdown>  
+
+        {/* <Markdown>{'
+      
+        '}</Markdown> */}
+
+        {/* <ImageWithText 
           image="homepage-paintings.jpg" 
           title="Paintings" 
           text={this.state.modifiedContent.homepage_paintings}
@@ -61,8 +94,8 @@ class HomePage extends React.Component {
           image="homepage-prints.jpg" 
           title="Shop" 
           text={this.state.modifiedContent.homepage_shop}
-          link="https://shop.alexharris.art/"
-        />         
+          link="shop"
+        />          */}
       </div>
     )
   }

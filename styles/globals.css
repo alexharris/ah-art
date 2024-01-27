@@ -3,20 +3,25 @@
 @tailwind utilities;
 
 
-h1 {
-  @apply text-4xl font-serif pb-12
+body {
+  @apply text-lg;
+  background-color: #FFFCF9;
 }
 
+h1 {
+  @apply text-3xl font-serif pb-12 pt-8;
+} 
+
 h2 {
-  @apply text-2xl font-serif pb-4
+  @apply font-sans font-bold pb-2 pt-8;
 }
 
 h3 {
-  @apply text-xl font-serif pb-4
+  @apply font-sans pb-4 pt-8;
 }
 
 p {
-  @apply font-sans pb-6
+  @apply font-sans ;
 }
 
 .big-text {
@@ -24,12 +29,11 @@ p {
 }
 
 .small-text {
-  @apply text-sm font-sans
+  @apply font-sans
 }
 
-
 a {
-  @apply border-b border-black inline hover:text-red-500
+  @apply border-b border-black inline text-[#086BFF] hover:text-red-500
 }
 
 a.image {
@@ -39,4 +43,36 @@ a.image {
 .carousel-image {
   max-height: 70vh;
   max-width: 70vw;
+}
+
+.copy {
+  @apply  font-serif;
+}
+
+.copy a {
+  @apply inline-block mt-3 border-0 font-sans;
+}
+
+/* .copy a:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23086BFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E");
+  padding-right: 4px;
+  width: 12px;
+}
+
+.copy a:hover:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23EF4444' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E");
+  padding-right: 4px;
+  width: 12px;
+} */
+
+.copy img {
+  @apply mt-6;
+}
+
+blockquote p {
+  @apply italic  font-serif leading-6;
+}
+
+.copy hr {
+  @apply my-6 border-black
 }

@@ -9,8 +9,8 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 // This function gets called at build time
 export async function getStaticProps() {
   // Call an external API endpoint to get posts
-  const paintings = await supabase.from('paintings').select().order('title', { ascending: true })
-  const categories = await supabase.from('categories').select().order('title', { ascending: true })
+  const paintings = await supabase.from('paintings').select().eq('disabled', false).order('title', { ascending: true })
+  const categories = await supabase.from('categories').select().eq('disabled', false).order('title', { ascending: true })
 
   return {
     props: {
