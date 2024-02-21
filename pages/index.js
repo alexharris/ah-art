@@ -52,7 +52,7 @@ A book I wrote and illustrated about the history and birds of Lake Merritt in Oa
 [Learn more at birdsoflakemerritt.com ↝](https://birdsoflakemerritt.com/)
 
 ## Illustration
-- [Good Eggs zine, spring 2024 ↝](illustration/good-eggs-spring-2023)  
+- [Good Eggs zine, spring 2024 ↝](illustration/good-eggs-spring-2024)  
 - [Bay Nature Mushroom articles ↝](illustration/bay-nature-mushrooms) (I wrote the articles as well)
 
 ## Paintings
