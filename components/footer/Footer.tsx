@@ -21,13 +21,13 @@ class Footer extends Component {
   render() {
     return(
 
-      <footer className="px-8 bg-gray-100 mt-24">
-        <div  className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8 py-16 mt-8">
-          <div className="w-full md:w-1/2">
+      <footer className="bg-gray-100 mt-24">
+        <div  className="max-w-6xl flex flex-col md:flex-row justify-between gap-8 py-16 mt-8 px-8 mx-auto">
+          {/* <div className="w-full md:w-1/2">
             <h3>Newsletter</h3>
             <p>Sign up for my newsletter to receive very occasional emails (like almost never), about new projects, prints for sale, etc</p>
             <div className="p-2 inline-block bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer"><a className="border-0" href="https://tinyletter.com/alexharris" target="_blank" >sign up</a></div>
-          </div>
+          </div> */}
           <div className="w-full md:w-1/2">
             <h3>Get in touch</h3>
             <ul>

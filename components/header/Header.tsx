@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return(
       <header className="flex flex-row justify-between items-start md:items-center py-8 mb-16">
-        <a href="/" className="font-semibold border-0 uppercase text-black">Alex Harris</a>
+        <a href="/" className=" border-0 text-black">Alex Harris</a>
         {/* <nav className="flex flex-col md:flex-row">
           <a className="md:mr-4" href="/paintings">Paintings</a>
           <a className="md:mr-4" href="/bolm">Birds of Lake Merritt</a>
