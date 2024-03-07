@@ -64,6 +64,12 @@ A web app (and figma plugin) for reducing the number of colors in images using a
 [Ditherit.com ↝](https://ditherit.com)  
 [Dither it! Figma Plugin ↝](https://www.figma.com/community/plugin/1141558599392169513/dither-it)
 
+`}</Markdown>  
+ <h2 className="scaup text-2xl">Scaup</h2>
+ <Markdown>{`
+Scaup is a font I made.  
+[Check it ↝](/scaup)
+
 ---
 
 I also build and maintain websites for a variety of clients, which you can check out here:  
