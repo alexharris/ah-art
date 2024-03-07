@@ -72,9 +72,23 @@ class Scaup extends React.Component {
             </div>
           </div>
           
-          <div className="scaup flex flex-col my-8 p-4 bg-gray-100 break-words" style={{fontSize: `${this.state.testSize}px`, lineHeight: `${this.state.testSize}px`}}>
+          <div className="scaup flex flex-col my-8 p-4 bg-gray-100 break-words h-96 overflow-scroll" style={{fontSize: `${this.state.testSize}px`, lineHeight: `${this.state.testSize}px`}}>
             {this.state.test}
           </div>
+          <div className=" border-t-4 border-black border-dashed my-8 py-8">
+            <h2 className="text-2xl py-2">Story</h2>
+            <p className="text-3xl scaup">I enrolled in a class called <a href="https://www.typeelectives.com/courses/crash-course-in-revival-type-design">Crash Course in Revival Type Design </a> with the hopes of learning how to make a font based on the logo for the Honey Bucket brand of portable toilets. However, it was deemed to difficult of task for someone who had never made a font before, so I decided instead to make one based on this newspaper clipping I found while doing research for <a href="">Birds of Lake Merritt</a></p>
+            <img className="my-4 h-64 mx-auto" src="/scaup-newspaper.png" alt="Scaup Newspaper Clipping" />
+            
+          </div>    
+          <div className=" border-t-4 border-black border-dashed my-8 py-8">
+            <h2 className="text-2xl py-2">Download</h2>
+
+            <p className="text-3xl scaup">You can download the font here, but it is only an early version, some characters are missing, there are no italics or anything like that..."your mileage may vary".</p>
+            <a href="/fonts/Scaup-Regular.ttf" download className="text-3xl scaup my-4 inline-block">Download Scaup.</a>  
+            
+            <p className="text-3xl my-4 scaup">Let me know if you use it for anything!</p>
+          </div>                 
         </div>                          
 
         

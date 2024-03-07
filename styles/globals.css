@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'scaup';
   src: url('/fonts/scaup-regular-webfont.woff2') format('woff2'),
-       url('/fontsscaup-regular-webfont.woff') format('woff');
+       url('/fonts/scaup-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
