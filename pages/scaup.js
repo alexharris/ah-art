@@ -31,6 +31,7 @@ class Scaup extends React.Component {
         <p className="text-4xl scaup">
         A somewhat inconsistent font that kind of looks like someone tried their best to draw a different font from memory but couldn’t really remember what all of the letters look like so they just made them up.          
         </p>
+        <a href="/fonts/Scaup-Regular.ttf" download className="text-3xl scaup my-4 inline-block">Download.</a>  
         <div className=" border-t-4 border-black border-dashed my-8 py-8">
           <h2 className="text-2xl py-2">Uppercase</h2>
           <p className="text-8xl break-words scaup">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>  

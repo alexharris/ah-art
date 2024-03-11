@@ -67,7 +67,7 @@ A web app (and figma plugin) for reducing the number of colors in images using a
 `}</Markdown>  
  <h2 className="scaup text-2xl">Scaup</h2>
  <Markdown>{`
-Scaup is a font I made.  
+Scaup is a font I made. It is a work in progress.  
 [Check it ↝](/scaup)
 
 ---
