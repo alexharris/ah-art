@@ -46,7 +46,7 @@ p {
 }
 
 a {
-  @apply border-b border-black inline text-[#086BFF] hover:text-red-500
+  @apply border-b border-black inline text-[#086BFF] hover:text-red-500 underline;
 }
 
 a.image {
@@ -59,11 +59,14 @@ a.image {
 }
 
 .copy {
-  @apply  font-serif;
+  @apply font-serif;
 }
 
 .copy a {
-  @apply inline-block mt-3 border-0 font-sans;
+  @apply inline-block  border-0 font-sans;
+  &.more-link {
+    @apply mt-3
+  }
 }
 
 /* .copy a:before {
@@ -83,9 +86,16 @@ a.image {
 }
 
 blockquote p {
-  @apply italic  font-serif leading-6;
+  @apply italic font-serif leading-6;
 }
 
 .copy hr {
   @apply my-6 border-black
+}
+
+.copy ul {
+  @apply list-disc list-inside font-sans;
+  ul {
+    @apply list-[circle] list-inside ml-4;
+  }
 }
