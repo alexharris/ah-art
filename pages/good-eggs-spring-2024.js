@@ -3,7 +3,7 @@ function goodEggsSpring2024() {
     <div>
       <h1>Good Eggs Zine - Spring 2024</h1>
       
-      <p className="max-w-3xl copy big-text" >Grocery delivery company Good Eggs hired me to illustrate a variety of spots for a promotional zine to be included in all orders in the spring of 2024.</p>
+      <p className="max-w-3xl copy big-text" >Grocery delivery company Good Eggs hired me to illustrate a variety of spots for a promotional zine to be included in orders in the spring of 2024.</p>
       <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-front-and-back.jpg" alt="Cover" />
       <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-bottles.jpg" alt="Seasoning" />
       <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-favorites.jpg" alt="Favorites" />
