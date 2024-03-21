@@ -59,6 +59,10 @@ I wrote and illustrated a book about the history and birds of Lake Merritt in Oa
 Original paintings from over the years, mostly gouache and watercolor.  
 [See some paintings ↝](/paintings)
 
+## Good Eggs Zine - Spring 2024
+Illustrations for a grocery deliver company's promotional zine.  
+[Take a look ↝](/good-eggs-spring-2024)
+
 ## Dither it!
 A web app (and figma plugin) for reducing the number of colors in images using a process known as dithering, for purposes of style and filesize.
 
