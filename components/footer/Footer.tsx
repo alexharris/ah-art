@@ -21,9 +21,9 @@ class Footer extends Component {
   render() {
     return(
 
-      <footer className="bg-gray-100 mt-24">
+      <footer className="bg-[#f2f1d7] mt-24">
         <div class="max-w-6xl gap-8 py-16 mt-8 px-8 mx-auto">
-          <h3 class="text-3xl">Say hello</h3>
+          <img class="w-64 mx-auto pb-6" src="/say-hello.png" />
           <div  className="flex flex-col md:flex-row justify-between pt-8">
 
             <div className="w-full md:w-1/2">
