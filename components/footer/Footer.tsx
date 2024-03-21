@@ -22,20 +22,28 @@ class Footer extends Component {
     return(
 
       <footer className="bg-gray-100 mt-24">
-        <div  className="max-w-6xl flex flex-col md:flex-row justify-between gap-8 py-16 mt-8 px-8 mx-auto">
-          {/* <div className="w-full md:w-1/2">
-            <h3>Newsletter</h3>
-            <p>Sign up for my newsletter to receive very occasional emails (like almost never), about new projects, prints for sale, etc</p>
-            <div className="p-2 inline-block bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer"><a className="border-0" href="https://tinyletter.com/alexharris" target="_blank" >sign up</a></div>
-          </div> */}
-          <div className="w-full md:w-1/2">
-            <h3>Get in touch</h3>
-            <ul>
-              <li>On instagram at @waggledance</li>
-              <li>On email at hello @ alexharris dot online</li>
-            </ul>
-          </div>
-        </div>    
+        <div class="max-w-6xl gap-8 py-16 mt-8 px-8 mx-auto">
+          <h3 class="text-3xl">Say hello</h3>
+          <div  className="flex flex-col md:flex-row justify-between pt-8">
+
+            <div className="w-full md:w-1/2">
+              
+              <ul>
+                <li>On instagram at @waggledance</li>
+                <li>On email at hello @ alexharris dot online</li>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2">
+              <p>Or send me a note here:</p>
+              <form className="flex flex-col gap-4 items-start w-full pt-4" name="contact" action="/form-success" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
+                <label className="w-full"><span className="pb-4">Your Email</span><input className="w-full border border-black h-12 p-2" type="email" name="email" required/></label>
+                <label className="w-full"><span className="pb-4">Message</span><textarea className="w-full border border-black h-24 p-2" name="message" required></textarea></label>
+                <button className="p-2 bg-gray-200 rounded hover:bg-gray-300 hover:cursor-pointer" type="submit">Submit</button>          
+              </form>   
+            </div>          
+          </div>  
+        </div>  
       </footer>
       
     )

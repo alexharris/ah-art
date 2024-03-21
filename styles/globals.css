@@ -64,9 +64,11 @@ a.image {
 
 .copy a {
   @apply inline-block  border-0 font-sans;
-  &.more-link {
-    @apply mt-3
-  }
+
+}
+
+.copy a.more-link {
+  @apply mt-3
 }
 
 /* .copy a:before {

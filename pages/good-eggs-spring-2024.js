@@ -3,8 +3,14 @@ function goodEggsSpring2024() {
     <div>
       <h1>Good Eggs Zine - Spring 2024</h1>
       
-      <p className="max-w-3xl copy" >Grocery delivery company Good Eggs hired me to illustrate a variety of spots for a promotional zine to be included in all orders in the spring of 2024.</p>
-      <h2>Popular Products</h2>
+      <p className="max-w-3xl copy big-text" >Grocery delivery company Good Eggs hired me to illustrate a variety of spots for a promotional zine to be included in all orders in the spring of 2024.</p>
+      <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-front-and-back.jpg" alt="Cover" />
+      <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-bottles.jpg" alt="Seasoning" />
+      <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-favorites.jpg" alt="Favorites" />
+      <img className="pb-2 w-full" src="/illustration/good-eggs-spring-24/final-citrus.jpg" alt="Citrus" />
+      
+      <h2>Original Illustrations</h2>
+      <h3>Popular Products</h3>
       <div className="max-w-7xl flex flex-wrap">
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/bathing-culture-web.jpg" alt="Bathing Culture" />
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/cheese-web.jpg" alt="Cheese" />
@@ -15,7 +21,7 @@ function goodEggsSpring2024() {
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/rancho-gordo-web.jpg" alt="Rancho Gordo Mayocoba Beans" />
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/rebel-within-web.jpg" alt="Rebel Within Muffin" />
       </div>
-      <h2>Bottles</h2>
+      <h3>Bottled Goods</h3>
       <div className="max-w-7xl flex flex-wrap">
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/acid-league-vinaigrette.jpg" alt="Acid League Vinaigrette" />
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/bowl-cut-chili-crisp.jpg" alt="Bowlcut Chili Crisp"/>
@@ -23,7 +29,7 @@ function goodEggsSpring2024() {
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/tia-lupita-salsa-verde.jpg" alt="Tia Lupita Salsa Verde"/>
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/winter-harvest-vinegar.jpg" alt="Winter Harvest Persimmon Vinegar"/>
       </div>      
-      <h2>Fruits and Vegetables</h2>
+      <h3>Fruits and Vegetables</h3>
       <div className="max-w-7xl flex flex-wrap">
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/raddichio-web.jpg" alt="Raddichio" />
         <img className="w-full md:w-1/2  md:pr-2 pb-2" src="/illustration/good-eggs-spring-24/ginger-web.jpg" alt="Ginger"/>
